@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd">
+
+	<bean id="dataSource"
+
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+
+		<property name="url" value="${jdbc.url}" />
+
+		<property name="username" value="${jdbc.username}" />
+
+		<property name="password" value="${jdbc.password}" />
+
+	</bean>
+
+
+
+	<bean id="sessionFactory"
+
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+
+		<property name="dataSource" ref="dataSource" />
+
+		<property name="annotatedClasses">
+
+			<list>			 	
+				<value>com.sil.databasemodel.UserLoginMaster</value>
+	
+	
+				<value>com.sil.databasemodel.ContractMaster</value>
+		
+
+				<value>com.sil.databasemodel.DepartmentMasterDetail</value>
+				<value>com.sil.databasemodel.EmployeeMasterDetail</value>
+				<value>com.sil.databasemodel.LocationMaster</value>
+				<value>com.sil.databasemodel.MenuMaster</value>
+				<value>com.sil.databasemodel.UserPermission</value>
+
+
+	
+				<value>com.sil.databasemodel.SiteMaster</value> <!-- May be delete -->
+				
+				
+				<value>com.sil.databasemodel.CountryMaster</value>
+				<value>com.sil.databasemodel.RegionMaster</value>
+				<value>com.sil.databasemodel.StateMaster</value>
+				<value>com.sil.databasemodel.DistrictMaster</value>
+				<value>com.sil.databasemodel.CityMaster</value>
+				<value>com.sil.databasemodel.UnitMaster</value>
+
+
+<!-- Piling -->
+				<value>com.sil.databasemodel.ZoneMaster</value>
+				<value>com.sil.databasemodel.RigDetail</value>
+				<value>com.sil.databasemodel.PileDetail</value>
+				<value>com.sil.databasemodel.PilingRigIdleTime</value>
+				<value>com.sil.databasemodel.PilingRigBreakdownTime</value>
+				<value>com.sil.databasemodel.PilingRigMovementTime</value>
+			</list>
+
+		</property>
+
+		<property name="hibernateProperties">
+			<props>
+			 <prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</prop>
+	 			<prop key="hibernate.show_sql">true</prop>		 			
+			</props>
+		</property>
+
+	</bean>
+
+	<bean id="hibernateTransactionManager"
+
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+
+		<property name="sessionFactory" ref="sessionFactory" />
+
+	</bean>
+	
+	 <tx:annotation-driven transaction-manager="hibernateTransactionManager" 
+		/> 
+
+</beans>

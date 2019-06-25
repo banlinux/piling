@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4Test" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="59331aea-6ef6-474f-8169-7f72b3f3e0fc">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="piling"/>
+	<queryString language="SQL">
+		<![CDATA[Select * from piling_rig_breakdown_time Break,piling_rig_idle_time Idle,piling_rig_movement_time Movement]]>
+	</queryString>
+	<field name="rig_no" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="rig_no"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="piling_rig_breakdown_time"/>
+	</field>
+	<field name="breakdown_date" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="breakdown_date"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="piling_rig_breakdown_time"/>
+	</field>
+	<field name="piling_rig_breakdown_time_start" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="piling_rig_breakdown_time_start"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="piling_rig_breakdown_time"/>
+	</field>
+	<field name="piling_rig_breakdown_time_end" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="piling_rig_breakdown_time_end"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="piling_rig_breakdown_time"/>
+	</field>
+	<field name="piling_rig_idle_time_start" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="piling_rig_idle_time_start"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="piling_rig_idle_time"/>
+	</field>
+	<field name="piling_rig_idle_time_end" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="piling_rig_idle_time_end"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="piling_rig_idle_time"/>
+	</field>
+	<field name="piling_rig_movement_time_start" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="piling_rig_movement_time_start"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="piling_rig_movement_time"/>
+	</field>
+	<field name="piling_rig_movement_time_end" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="piling_rig_movement_time_end"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="piling_rig_movement_time"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

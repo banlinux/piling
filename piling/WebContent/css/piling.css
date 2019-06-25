@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+.textbox_600 {
+    border-right: #0a456d 1px solid; border-top: #0a456d 1px solid; font-size: 12px; border-left: #0a456d 1px solid; width: 600px; color: #222222; border-bottom: #0a456d 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #ffffff; text-decoration: none;
+}
+.textbox_585 {
+    border-right: #0a456d 1px solid; border-top: #0a456d 1px solid; font-size: 12px; border-left: #0a456d 1px solid; width: 585px; color: #222222; border-bottom: #0a456d 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #ffffff; text-decoration: none;
+}
+.textbox_400 {
+    border-right: #0a456d 1px solid; border-top: #0a456d 1px solid; font-size: 12px; border-left: #0a456d 1px solid; width: 400px; color: #222222; border-bottom: #0a456d 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #ffffff; text-decoration: none;
+}
+.textbox_350 {
+    border-right: #0a456d 1px solid; border-top: #0a456d 1px solid; font-size: 12px; border-left: #0a456d 1px solid; width: 350px; color: #222222; border-bottom: #0a456d 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #ffffff; text-decoration: none;
+}
+.textbox_200 {
+    border-right: #0a456d 1px solid; border-top: #0a456d 1px solid; font-size: 12px; border-left: #0a456d 1px solid; width: 200px; color: #222222; border-bottom: #0a456d 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #ffffff; text-decoration: none;
+}
+
+.textbox_80 {
+    border-right: #0a456d 1px solid; border-top: #0a456d 1px solid; font-size: 12px; border-left: #0a456d 1px solid; width: 80px; color: #222222; border-bottom: #0a456d 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #ffffff; text-decoration: none;
+}
+
+.textbox_60 {
+    border-right: #0a456d 1px solid; border-top: #0a456d 1px solid; font-size: 12px; border-left: #0a456d 1px solid; width: 60px; color: #222222; border-bottom: #0a456d 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #ffffff; text-decoration: none;
+}

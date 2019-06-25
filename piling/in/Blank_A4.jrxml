@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5385726b-41be-4d8e-918c-067810f5f55c">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w1" value="479"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w2" value="521"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="piling"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * from rig_detail]]>
+	</queryString>
+	<field name="rig_sl_no" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="rig_sl_no"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="rig_detail"/>
+	</field>
+	<field name="rig_name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="rig_name"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="rig_detail"/>
+	</field>
+	<field name="site_no" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="site_no"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="rig_detail"/>
+	</field>
+	<field name="contract_no" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="contract_no"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="rig_detail"/>
+	</field>
+	<group name="rig_sl_no">
+		<groupExpression><![CDATA[$F{rig_sl_no}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="80" splitType="Stretch">
+			<textField>
+				<reportElement x="360" y="50" width="100" height="30" uuid="7f114cb9-ae52-418c-bcc7-855a077d897f"/>
+				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

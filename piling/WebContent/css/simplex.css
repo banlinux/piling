@@ -1,0 +1,151 @@
+@CHARSET "ISO-8859-1";
+
+.register {	
+	height:100px;
+	width: 250px;
+	color:blue;
+}
+.dottedborder {
+    border: 1px solid #0a456d;
+}
+.fieldsetheader{
+    font-family: Verdana, Eyechart, Geneva, Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #a95555;
+}
+
+.mainDiv {
+	margin-left: 100px;
+	margin-right:  100px;
+	}
+	
+<!-- For Header-->
+.headertext {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+	
+    FONT-WEIGHT: bold;
+    margin-top: -2px;
+}
+.headerCSS{
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 25px;    
+	
+	}
+.simHeader{
+	font-size: 30px;
+	}
+.rowHeader {
+	background-color: #3399FF;
+	}
+	
+.rowStyle {
+	background-color: #CCFFFF;
+	}
+	
+.altRowStyle {
+	
+	}
+.newUserForm{
+	margin-left: 200px;
+	}
+.careerBody {
+	
+	margin-right: 30px;
+	
+	}
+	
+.jobDetailsStyle{
+	-moz-border-radius-bottomleft:10px;
+	
+	}
+.headerstl{
+	color:#990000;
+	}
+	
+.error {
+	color: #ff0000;
+}
+.textbox_850 {
+    border-right: #0a456d 1px solid; border-top: #0a456d 1px solid; font-size: 12px; border-left: #0a456d 1px solid; width: 850px; color: #222222; border-bottom: #0a456d 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #ffffff; text-decoration: none;
+}
+.textbox_200 {
+    border-right: #0a456d 1px solid; border-top: #0a456d 1px solid; font-size: 12px; border-left: #0a456d 1px solid; width: 200px; color: #222222; border-bottom: #0a456d 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #ffffff; text-decoration: none;
+}
+
+.textbox_80 {
+    border-right: #0a456d 1px solid; border-top: #0a456d 1px solid; font-size: 12px; border-left: #0a456d 1px solid; width: 80px; color: #222222; border-bottom: #0a456d 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #ffffff; text-decoration: none;
+}
+
+.textbox_60 {
+    border-right: #0a456d 1px solid; border-top: #0a456d 1px solid; font-size: 12px; border-left: #0a456d 1px solid; width: 60px; color: #222222; border-bottom: #0a456d 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #ffffff; text-decoration: none;
+}
+
+.textbox1_gray {
+    border-right: #0a456d 0px solid;  border-top: #0a456d 0px solid; font-size: 12px; border-left: #0a456d 0px solid; width: 140px; color: #222222; border-bottom: #0a456d 0px solid; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #F2F1F1; text-decoration: none;
+}
+.textbox_250_gray {
+    border-right: #0a456d 0px solid;  border-top: #0a456d 0px solid; font-size: 12px; border-left: #0a456d 0px solid; width: 250px; color: #222222; border-bottom: #0a456d 0px solid; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #F2F1F1; text-decoration: none;
+}
+.textbox_40_gray {
+    background-color : #CCCCCC;
+    border-right: #0a456d 1px solid; border-top: #0a456d 1px solid; font-size: 12px; border-left: #0a456d 1px solid; width: 40px; color: #222222; border-bottom: #0a456d 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none;
+}
+
+select{
+	font-size: small;color: blue;
+	background-color: #D5FDE1;
+	border:1px #CCCCCC solid;
+	}
+	
+.textbox1 {
+    border-right: #0a456d 1px solid; border-top: #0a456d 1px solid; font-size: 12px; border-left: #0a456d 1px solid; width: 140px; color: #222222; border-bottom: #0a456d 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #ffffff; text-decoration: none;
+}
+
+.labeltext {
+    font-family: Verdana, Eyechart, Geneva, Arial, Helvetica, sans-serif;
+    font-size: small ;
+    color: #000000; 
+  /*  font-weight: bold;*/
+}
+
+
+.page_subbold  {
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#000;
+text-decoration:none;
+font-weight:bold;
+}
+
+.button1 {
+    font-weight: bold;
+    border: 1px solid #505050;
+    color: #000000;
+    font-family: Arial, Arial, Helvetica;
+    font-size: 11px;
+    width: 70px;    
+    
+}
+
+.button2 {
+	font-weight: bold;
+    border: 1px solid #505050;
+    color: #000000;
+    font-family: Arial, Arial, Helvetica;
+    font-size: 11px;
+    width: 140px; 
+}
+.style7 {
+	color: #FF0000;
+}
+
+.dateField{
+	font-size: small;color: blue;
+	background-color: #D5FDE1;
+	border:1px #CCCCCC solid;
+	}
+	
+	
+	
+	
